@@ -1,0 +1,22 @@
+{
+  "name": "frogbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomicLiquid/markobot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AtomicLiquid/markobot/issues"
+  },
+  "homepage": "https://github.com/AtomicLiquid/markobot#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0"
+  }
+}
