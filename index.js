@@ -13,7 +13,7 @@ bot.on("ready", () => {
 
 bot.on("message", async message => {
     if(message.channel.id === "584166690829500458") {
-        message.member.addRole(message.guild.roles.find(r => r.name === "Crab")).catch(console.error);
+        message.member.addRole(message.guild.roles === "584166734408318998").catch(console.error);
         message.delete(1);
     } else if(message.content === "vhs") {
         const pillipsEmbed = new Discord.RichEmbed()
